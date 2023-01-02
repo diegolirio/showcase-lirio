@@ -10,7 +10,7 @@
       <v-toolbar-title>
         <img 
           src="https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/oshine/images/logo-lacasadelustre-Page-1-transparente.png" 
-          height="80"
+          height="60"
           style="padding-top: 7px"
         />
       </v-toolbar-title>
