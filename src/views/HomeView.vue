@@ -1,22 +1,3 @@
-<!-- <template>
-  <HelloWorld />
-</template>
-
-<script>
-import { defineComponent } from 'vue';
-
-// Components
-import HelloWorld from '../components/HelloWorld.vue';
-
-export default defineComponent({
-  name: 'HomeView',
-
-  components: {
-    HelloWorld,
-  },
-});
-</script> -->
-
 <template>
   <v-app id="inspire">
   
@@ -56,7 +37,13 @@ export default defineComponent({
                 </v-card>
                 <p v-if="n < 5">Newmind Lâmpada, lâmpadas sala de, luminárias decorativas e refletor de, lâmpadas de decoração de de hotel, Preto 24x20x12,5cm </p>
                 <p v-else>Newmind Lâmpada, lâmpadas sala  </p>
-                <b>R$ 189,00</b>              
+                <h2>R$ 189,00</h2>
+                
+                <button-buy-whats-app 
+                    class="align-end flex-column"
+                    phoneNumber="11961409798" 
+                    message="Vi esse Lustre e quero realizar uma compra " 
+                /> 
               </router-link>  
           </v-col>
 
@@ -70,9 +57,11 @@ export default defineComponent({
 
 <script>
   import AppBar from '../components/AppBar' 
+  import ButtonBuyWhatsApp from '../components/ButtonBuyWhatsApp'
   export default {
     components: {
-      AppBar
+      AppBar,
+      ButtonBuyWhatsApp
     },
     data: () => ({ drawer: false }),
   }

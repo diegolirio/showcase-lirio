@@ -37,7 +37,19 @@
               >
                   <p v-if="n < 5">Newmind Lâmpada, lâmpadas sala de, luminárias decorativas e refletor de, lâmpadas de decoração de de hotel, Preto 24x20x12,5cm </p>
                   <p v-else>Newmind Lâmpada, lâmpadas sala  </p>
-                  <b>R$ 189,00</b>             
+                  <p><b>R$ 189,00</b></p>
+                  <br/>
+                  <!-- <v-btn
+                    depressed
+                    color="success"
+
+                  >
+                    Comprar
+                  </v-btn>                   -->
+                  <button-buy-whats-app 
+                    phoneNumber="11961409798" 
+                    message="Vi esse Lustre e quero realizar uma compra " 
+                  />
               </v-col>
 
 
@@ -51,9 +63,11 @@
 
 <script>
   import AppBar from '../components/AppBar' 
+  import ButtonBuyWhatsApp from '../components/ButtonBuyWhatsApp'
   export default {
     components: {
       AppBar,
+      ButtonBuyWhatsApp 
     }
   }
 </script>
