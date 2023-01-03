@@ -63,6 +63,6 @@
       AppBar,
       ButtonBuyWhatsApp
     },
-    data: () => ({ drawer: false }),
+    //data: () => ({ drawer: false }),
   }
 </script>
