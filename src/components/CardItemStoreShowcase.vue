@@ -13,21 +13,15 @@
       ></v-progress-linear>
     </template>
 
-    <router-link to="/p/1234567890" style="color: inherit; text-decoration: none">
+    <router-link :to="`/p/${product._id}`" style="color: inherit; text-decoration: none">
 
         <v-img
-        width="374"
-        height="300"
-        src="https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/lustres/IMG-7928.jpg"
+            width="374"
+            height="300"
+            :src="product.photo"
         ></v-img>
-        <!-- <v-img
-        width="374"
-        height="300"
-        src="https://cdn.vuetifyjs.com/images/cards/cooking.png"
-        ></v-img> -->
 
-
-        <v-card-title>Lustre de Teto</v-card-title>
+        <v-card-title>{{ product.shortName }}</v-card-title>
 
         <v-card-text>
             <v-row
@@ -52,12 +46,12 @@
                 <!-- $ • Italian, Cafe -->
             </div>
 
-            <div>Small plates, salads & sandwiches - an intimate setting with 12 indoor seats plus patio seating.</div>
+            <div>{{ product.description }}</div>
         </v-card-text>
 
         <!-- <v-divider class="mx-4"></v-divider> -->
 
-        <v-card-title>R$ 189,99</v-card-title>
+        <v-card-title>{{ product.price }}</v-card-title>
 
         <!-- 
         <v-card-text>
@@ -90,7 +84,7 @@
       <button-buy-whats-app 
             class="align-end flex-column"
             phoneNumber="11961409798" 
-            message="Vi esse Lustre e quero realizar uma compra " 
+            :message="`{{ window.domain }}/p/${product._id} \n\n Vi esse Lustre e quero realizar uma compra `" 
         />       
     </v-card-actions>
   </v-card>    
@@ -98,6 +92,8 @@
 <script>
   import ButtonBuyWhatsApp from '../components/ButtonBuyWhatsApp'
   export default {
+    name: "CardItemStoreShowcase",
+    props: [ 'product' ],
     components: {
         ButtonBuyWhatsApp
     },

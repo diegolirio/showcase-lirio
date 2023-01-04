@@ -1,0 +1,14 @@
+[
+    {
+        "_id": "230fk9jni-qwdinu-qdinuwcje",
+        "shortName": "Lustre de Teto",
+        "description": "Descricao do Lustre com mais detalhes adiconados pelo vendedor como altura, largura e etc...",
+        "price": "R$ 180,00",
+        "rate": "5",
+        "photo": "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/lustres/IMG-7928.jpg",
+        "photos": [
+            "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/lustres/IMG-7928.jpg",
+            "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/lustres/IMG-7928.jpg"
+        ]
+    }
+]
