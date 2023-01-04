@@ -1,39 +1,5 @@
 <template>
 
-                <!-- <v-card
-                elevation="1"
-                >
-                  <v-img
-                    :src="`https://picsum.photos/500/300?image=${n * 5 + 10}`"
-                    :lazy-src="`https://picsum.photos/10/6?image=${n * 5 + 10}`"
-                    aspect-ratio="1"
-                    cover
-                    class="bg-grey-lighten-2"
-                  >
-                    <template v-slot:placeholder>
-                      <v-row
-                        class="fill-height ma-0"
-                        align="center"
-                        justify="center"
-                      >
-                        <v-progress-circular
-                          indeterminate
-                          color="grey-lighten-5"
-                        ></v-progress-circular>
-                      </v-row>
-                    </template>
-                  </v-img>
-                </v-card>
-                <p v-if="n < 5">Newmind Lâmpada, lâmpadas sala de, luminárias decorativas e refletor de, lâmpadas de decoração de de hotel, Preto 24x20x12,5cm </p>
-                <p v-else>Newmind Lâmpada, lâmpadas sala  </p>
-                <h2>R$ 189,00</h2>
-                
-                <button-buy-whats-app 
-                    class="align-end flex-column"
-                    phoneNumber="11961409798" 
-                    message="Vi esse Lustre e quero realizar uma compra " 
-                />   -->
-
   <v-card
     :loading="loading"
     class="mx-auto my-12"
@@ -50,9 +16,16 @@
     <router-link to="/p/1234567890" style="color: inherit; text-decoration: none">
 
         <v-img
-        height="250"
-        src="https://cdn.vuetifyjs.com/images/cards/cooking.png"
+        width="374"
+        height="300"
+        src="https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/lustres/IMG-7928.jpg"
         ></v-img>
+        <!-- <v-img
+        width="374"
+        height="300"
+        src="https://cdn.vuetifyjs.com/images/cards/cooking.png"
+        ></v-img> -->
+
 
         <v-card-title>Lustre de Teto</v-card-title>
 

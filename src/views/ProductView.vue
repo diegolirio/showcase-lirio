@@ -11,8 +11,8 @@
               >
                     <v-card>
                       <v-img
-                        src="https://picsum.photos/500/300?image=15"
-                        lazy-src="https://picsum.photos/10/6?image=15"
+                        src="https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/lustres/IMG-7928.jpg"
+                        lazy-src="https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/lustres/IMG-7928.jpg"
                         aspect-ratio="1"
                         cover
                         class="bg-grey-lighten-2"

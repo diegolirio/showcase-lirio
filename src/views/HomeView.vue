@@ -15,8 +15,6 @@
               <card-item-store-showcase />
           </v-col>
 
-
-          <!-- https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/lustres/IMG-7928.jpg -->
         </v-row>
       </v-container>
     </v-main>
