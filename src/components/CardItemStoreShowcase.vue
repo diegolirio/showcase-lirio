@@ -84,7 +84,7 @@
       <button-buy-whats-app 
             class="align-end flex-column"
             phoneNumber="11961409798" 
-            :message="`https://lacasadelustre.com.br/p/${product._id} \n\n Vi esse Lustre e quero realizar uma compra `" 
+            :message="messageWhatsAPP()" 
         />       
     </v-card-actions>
   </v-card>    
@@ -111,6 +111,9 @@
             return description.substring(0, 48) + (description.length > 48 ? "..." : "")
         }
         return ""
+      },
+      messageWhatsAPP() {
+        return `https://${location.host}/#/p/${this.product._id} \n\n Segue o Link do meu pedido na Loja `
       }
     },
   }

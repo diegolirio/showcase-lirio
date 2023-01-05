@@ -10,8 +10,7 @@
                 xl="5" lg="5" md="5" sm="5" xs="12" cols="12" 
               >
                     <v-card
-                        width="484"
-                        height="410"
+
                     >
                       <v-img
                         :src="product.photo"
@@ -51,7 +50,7 @@
                   </v-btn>                   -->
                   <button-buy-whats-app 
                     phoneNumber="11961409798" 
-                    message="Vi esse Lustre e quero realizar uma compra " 
+                    :message="messageWhatsAPP" 
                   />
               </v-col>
 
@@ -78,6 +77,11 @@
       productGateway.getProductById(this.$route.params._id, res => {
           this.product = res
       })
+    },
+    methods: {
+      messageWhatsAPP() {
+        return `https://${location.host}/#/p/${this.product._id} \n\n Segue o Link do meu pedido na Loja `
+      }      
     }
   }
 </script>
