@@ -46,7 +46,7 @@
                 <!-- $ • Italian, Cafe -->
             </div>
 
-            <!-- <div>{{ product.description }}</div> -->
+            <div>{{ substrDescription(product.description) }}</div>
         </v-card-text>
 
         <!-- <v-divider class="mx-4"></v-divider> -->
@@ -105,9 +105,13 @@
     methods: {
       reserve () {
         this.loading = true
-
-        setTimeout(() => (this.loading = false), 2000)
       },
+      substrDescription(description) {
+        if(description) {
+            return description.substring(0, 48) + (description.length > 48 ? "..." : "")
+        }
+        return ""
+      }
     },
   }
 </script>
