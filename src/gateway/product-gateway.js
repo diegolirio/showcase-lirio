@@ -14,5 +14,16 @@ export default {
                 console.log(error);
                 errorCb(error)
             })
+    },
+    getProductById(_id, cb, errorCb) {
+        let url = `${URL}/products/${_id}`;
+        axios.get(url)
+            .then(data => {
+                cb(data.data)
+            })
+            .catch(error => {
+                console.log(error);
+                errorCb(error)
+            })        
     }
 }

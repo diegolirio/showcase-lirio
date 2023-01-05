@@ -7,12 +7,15 @@
           <v-container>
             <v-row>
               <v-col
-                xl="6" lg="6" md="6" sm="6" xs="12" cols="12" 
+                xl="5" lg="5" md="5" sm="5" xs="12" cols="12" 
               >
-                    <v-card>
+                    <v-card
+                        width="484"
+                        height="410"
+                    >
                       <v-img
-                        src="https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/lustres/IMG-7928.jpg"
-                        lazy-src="https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/lustres/IMG-7928.jpg"
+                        :src="product.photo"
+                        :lazy-src="product.photo"
                         aspect-ratio="1"
                         cover
                         class="bg-grey-lighten-2"
@@ -33,11 +36,11 @@
                     </v-card>           
               </v-col>
               <v-col
-                xl="6" lg="6" md="6" sm="6" xs="12" cols="12" 
+                xl="7" lg="7" md="7" sm="7" xs="12" cols="12" 
               >
-                  <p v-if="n < 5">Newmind Lâmpada, lâmpadas sala de, luminárias decorativas e refletor de, lâmpadas de decoração de de hotel, Preto 24x20x12,5cm </p>
-                  <p v-else>Newmind Lâmpada, lâmpadas sala  </p>
-                  <p><b>R$ 189,00</b></p>
+                  <h1>{{ product.shortName }}</h1>
+                  <p>{{ product.description }}</p>
+                  <p><b>{{ product.price }}</b></p>
                   <br/>
                   <!-- <v-btn
                     depressed
@@ -64,10 +67,17 @@
 <script>
   import AppBar from '../components/AppBar' 
   import ButtonBuyWhatsApp from '../components/ButtonBuyWhatsApp'
+  import productGateway from '../gateway/product-gateway.js'
   export default {
     components: {
       AppBar,
       ButtonBuyWhatsApp 
+    },
+    data: () => ({ product: {} }),
+    beforeMount() {
+      productGateway.getProductById(this.$route.params._id, res => {
+          this.product = res
+      })
     }
   }
 </script>
