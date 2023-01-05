@@ -46,7 +46,7 @@
                 <!-- $ • Italian, Cafe -->
             </div>
 
-            <div>{{ product.description }}</div>
+            <!-- <div>{{ product.description }}</div> -->
         </v-card-text>
 
         <!-- <v-divider class="mx-4"></v-divider> -->
