@@ -8,6 +8,6 @@ module.exports = defineConfig({
   },
   pages: {
     entry: 'src/main.js',
-    title: 'Minha Loja',    
+    title: 'Minha-Loja',    
   }
 })
