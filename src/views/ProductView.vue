@@ -86,7 +86,7 @@
     beforeMount() {
       productGateway.getProductById(this.$route.params._id, res => {
           this.product = res
-          this.product.photos.push(this.product.photo)
+          this.product.photos.unshift(this.product.photo)
       })
     },
     methods: {
