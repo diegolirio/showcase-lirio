@@ -41,22 +41,22 @@
                   <p>{{ product.description }}</p>
                   <p><b>{{ product.price }}</b></p>
                   <br/>
-                  <!-- <v-btn
+                  <!-- 
+                  <v-btn
                     depressed
                     color="success"
-
                   >
                     Comprar
-                  </v-btn>                   -->
+                  </v-btn>                   
+                  -->
                   <button-buy-whats-app 
                     phoneNumber="11961409798" 
-                    :message="messageWhatsAPP" 
+                    :message="messageWhatsAPP()" 
                   />
               </v-col>
 
-
-              <!-- https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/lustres/IMG-7928.jpg -->
             </v-row>
+
           </v-container>
       </v-main>      
     
@@ -80,8 +80,8 @@
     },
     methods: {
       messageWhatsAPP() {
-        return `https://${location.host}/#/p/${this.product._id} \n\n Segue o Link do meu pedido na Loja `
-      }      
+        return `https://${location.host}/p/${this.product._id} \n\n Segue o Link do meu pedido na Loja `
+      }
     }
   }
 </script>

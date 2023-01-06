@@ -1,7 +1,12 @@
 <template>
-    <a 
+    <!-- <a 
         style="color: inherit; text-decoration: none"
         :href="`https://api.whatsapp.com/send?phone=55${phoneNumber.replace(/\D/g,'')}&text=Olá ${message}`"
+    > -->
+
+    <a 
+        style="color: inherit; text-decoration: none"
+        :href="`https://api.whatsapp.com/send?phone=55${phoneNumber.replace(/\D/g,'')}&text=${message}`"
     >                        
         <v-btn
             color="success darken-2"
