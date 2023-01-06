@@ -112,8 +112,8 @@
         return ""
       },
       messageWhatsAPP() {
-        return `https://${location.host}/p/${this.product._id} \n\n Segue o Link do meu pedido na Loja `
-      }
+        return `Segue o Link do meu pedido na Loja 👉 https://${location.host}/p/${this.product._id}`
+      } 
     },
   }
 </script>
