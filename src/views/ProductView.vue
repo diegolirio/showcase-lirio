@@ -9,7 +9,6 @@
               <v-col
                 xl="5" lg="5" md="5" sm="5" xs="12" cols="12" 
               >
-                    
                     <Carousel>
                       <Slide v-for="slide in product.photos" :key="slide">
                         <div class="carousel__item">
@@ -60,6 +59,7 @@
             </v-row>
 
           </v-container>
+          <br/><br/><br/>
       </v-main>      
     
   </div>
