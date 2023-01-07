@@ -7,8 +7,6 @@
         "rate": "5",
         "photo": "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/lustres/lustre-1.jpeg",
         "photos": [
-            "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/lustres/lustre-1.jpeg",
-            "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/lustres/lustre-1.jpeg"
         ]
     },    
     {
@@ -19,8 +17,6 @@
         "rate": "5",
         "photo": "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/lustres/lustre-2.jpeg",
         "photos": [
-            "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/lustres/lustre-1.jpeg",
-            "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/lustres/lustre-1.jpeg"
         ]
     },
     {
@@ -31,8 +27,6 @@
         "rate": "5",
         "photo": "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/lustres/lustre-3.jpeg",
         "photos": [
-            "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/lustres/lustre-1.jpeg",
-            "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/lustres/lustre-1.jpeg"
         ]
     }        
 ]
