@@ -4,11 +4,11 @@
     <app-bar />
 
     <v-main>
-      <v-row>
+      <v-row v-if="$store.state.company.sloganImageUrl">
         <v-col cols="12">
           <v-card>
             <v-img
-              src="https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/oshine/Screenshot%20from%202023-01-13%2003-12-06.png"
+              :src="$store.state.company.sloganImageUrl"
               max-width="5000"
               class="grey darken-4"
             ></v-img>
