@@ -35,7 +35,13 @@ export default {
           return
         } 
         if(res.length > 1) {
-          alert(`Existem dois cadastro com o dominio ${domain}`)
+          let company = res.filter(it => it.domain === domain)[0]
+          if(company) {
+            this.$store.state.company = res[0]
+            this.loadingSite = false
+            return
+          }          
+          alert(`Existem dois cadastros com o dominio ${domain}`)
           console.warn('Domain', domain)    
           return
         }
