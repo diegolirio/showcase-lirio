@@ -32,7 +32,7 @@
     },
     data: () => ({ products: [] }),
     beforeMount() {
-      productGateway.getProductList(res => {
+      productGateway.getProductsByCompanyId("1", res => {
         this.products = res
       })
     }

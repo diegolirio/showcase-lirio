@@ -7,9 +7,8 @@
         "rate": "5",
         "photo": "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/lustres/lustre-1.jpeg",
         "photos": [
-            "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/lustres/lustre-1.jpeg",
-            "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/lustres/lustre-1.jpeg"
-        ]
+        ],
+        "companyId": "1"
     },    
     {
         "_id": "f2397dd0-b50a-4310-9648-5af940857333",
@@ -19,9 +18,8 @@
         "rate": "5",
         "photo": "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/lustres/lustre-2.jpeg",
         "photos": [
-            "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/lustres/lustre-1.jpeg",
-            "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/lustres/lustre-1.jpeg"
-        ]
+        ],
+        "companyId": "1"
     },
     {
         "_id": "0afef30f-bffd-490c-89db-a34c00b73a52",
@@ -31,8 +29,7 @@
         "rate": "5",
         "photo": "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/lustres/lustre-3.jpeg",
         "photos": [
-            "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/lustres/lustre-1.jpeg",
-            "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/lustres/lustre-1.jpeg"
-        ]
+        ],
+        "companyId": "1"
     }        
 ]

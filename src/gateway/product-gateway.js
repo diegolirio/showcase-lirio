@@ -1,11 +1,11 @@
 import axios from 'axios'
 
 //const URL_RESOURCES_INVESTMENT_PROFILE = process.env.VUE_APP_URL_RESOURCES_INVESTMENT_PROFILE
-const URL = 'https://63b5f0c258084a7af3a54d5c.mockapi.io'
+const URL = 'https://63b5f0c258084a7af3a54d5c.mockapi.io/products'
 
 export default {
-    getProductList(cb, errorCb) {
-        let url = `${URL}/products`;
+    getProductsByCompanyId(companyId, cb, errorCb) {
+        let url = `${URL}?companyId=${companyId}`;
         axios.get(url)
             .then(data => {
                 cb(data.data)
@@ -16,7 +16,7 @@ export default {
             })
     },
     getProductById(_id, cb, errorCb) {
-        let url = `${URL}/products/${_id}`;
+        let url = `${URL}/${_id}`;
         axios.get(url)
             .then(data => {
                 cb(data.data)
