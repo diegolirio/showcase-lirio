@@ -24,7 +24,8 @@ export default {
   beforeMount() {
     this.loadingSite = true
     let domain = location.host
-    if(location.host.includes('localhost') || location.host.includes('netlify.app')) {
+    
+    if(location.host.includes('localhost') || location.host.includes('netlify.app') || location.host.includes('192.168.1.196')) {
       domain = 'cafglass.lacasadelustre.com.br'
       console.warn(`Domain alterado para ${domain}, rodando em ${location.host}`)
     }

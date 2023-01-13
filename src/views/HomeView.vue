@@ -28,7 +28,7 @@
             
           >          
               <h2 
-                class="font-weight-black text-center d-flex align-center justify-center pa-10 mx-auto .display-4" 
+                class="text-center pa-4 mx-auto" 
                 :class="'text--'+$store.state.company.sloganAsABanner.sloganTextColor"
               >
                 {{ $store.state.company.sloganAsABanner.sloganText }}
