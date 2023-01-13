@@ -23,7 +23,7 @@
               <h2 class="font-weight-black text-center">{{ $store.state.company.sloganAsABanner.sloganText }}</h2>
           </v-card> -->
           <v-banner
-            height="150"
+            height="120"
             color="primary"
             
           >          
