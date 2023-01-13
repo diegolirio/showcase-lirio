@@ -1,7 +1,17 @@
 [
     {
       "id": "1",
-      "domain": "www.lacasadelustre.com.br",
+      "domain": "lacasadelustre.com.br",
       "logoUrl": "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/oshine/images/logo-lacasadelustre-Page-1-transparente.png"
-    }
+    },
+    {
+        "id": "2",
+        "domain": "cafglass.com.br",
+        "logoUrl": "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/oshine/images/logo-lacasadelustre-Page-1-transparente.png"
+    },
+    {
+        "id": "3",
+        "domain": "familycars.com.br",
+        "logoUrl": "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/oshine/images/logo-lacasadelustre-Page-1-transparente.png"
+    }        
 ]

@@ -8,7 +8,6 @@ export default {
         let url = `${URL}?domain=${domain}`;
         axios.get(url)
             .then(data => {
-                console.log(data)
                 cb(data.data)
             })
             .catch(error => {

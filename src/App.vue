@@ -1,11 +1,4 @@
 <template>
-  
-  <!-- <v-app>
-    <v-main>
-      <router-view/>
-    </v-main>
-  </v-app> -->
-
   <v-app id="inspire">         
     <router-view v-if="!loadingSite" />  
     <v-progress-circular
@@ -33,6 +26,7 @@ export default {
     let domain = location.host
     if(location.host.includes('localhost') || location.host.includes('netlify.app')) {
       domain = 'lacasadelustre.com.br'
+      console.warn(`Domain alterado para ${domain}, rodando em ${location.host}`)
     }
     companyGateway.getCompanyByDomain(domain, res => {
         if(res.length == 1) {
