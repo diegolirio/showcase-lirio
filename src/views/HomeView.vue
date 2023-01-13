@@ -30,9 +30,11 @@
       AppBar,
       CardItemStoreShowcase
     },
-    data: () => ({ products: [] }),
-    beforeMount() {
-      productGateway.getProductsByCompanyId("1", res => {
+    data: () => ({ 
+      products: [] 
+    }),
+    beforeMount() {  
+      productGateway.getProductsByCompanyId(this.$store.state.company.id, res => {
         this.products = res
       })
     }
