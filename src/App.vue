@@ -34,7 +34,7 @@ export default {
           this.loadingSite = false
           return
         } 
-        else if(res.length > 1) {
+        if(res.length > 1) {
           alert(`Existem dois cadastro com o dominio ${domain}`)
           console.warn('Domain', domain)    
           return
