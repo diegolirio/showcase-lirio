@@ -51,6 +51,7 @@
                   <p><b>{{ product.price }}</b></p>
                   <br/>
                   <button-buy-whats-app 
+                    v-if="$store.state.company.phoneNumberWhatsApp"
                     :phoneNumber="$store.state.company.phoneNumberWhatsApp" 
                     :message="messageWhatsAPP()" 
                   />

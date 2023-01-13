@@ -31,5 +31,16 @@
         "photos": [
         ],
         "companyId": "1"
-    }        
+    },
+    {
+        "_id": "0afef30f-bffd-490c-89db-a34c00b73a36",
+        "shortName": "Globo De Vidro ",
+        "description": "Globo 5x12 Leitoso (fosco) Peça P/ Reposição Fosca",
+        "price": "R$ 72,99",
+        "rate": "5",
+        "photo": "https://http2.mlstatic.com/D_NQ_NP_652476-MLB46573803799_062021-O.webp",
+        "photos": [
+        ],
+        "companyId": "2"
+    }                 
 ]

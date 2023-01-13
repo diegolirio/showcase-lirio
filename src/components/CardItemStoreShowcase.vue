@@ -82,10 +82,11 @@
         Reserve
       </v-btn> -->
       <button-buy-whats-app 
-            class="align-end flex-column"
-            :phoneNumber="$store.state.company.phoneNumberWhatsApp" 
-            :message="messageWhatsAPP()" 
-        />       
+        v-if="$store.state.company.phoneNumberWhatsApp"
+        class="align-end flex-column"
+        :phoneNumber="$store.state.company.phoneNumberWhatsApp" 
+        :message="messageWhatsAPP()" 
+      />       
     </v-card-actions>
   </v-card>    
 </template>
