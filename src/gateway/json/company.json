@@ -3,11 +3,11 @@
       "id": "1",
       "domain": "lacasadelustre.com.br",
       "logoUrl": "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/logo/logo-lacasadelustre-Page-1-transparente.png",
-      "sloganImageUrl": "https://konglify.s3.us-east-1.amazonaws.com/kong_1633485489998_cover.jpg",
+      "sloganImageUrl": "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/oshine/Screenshot%20from%202023-01-13%2003-12-06.png",
       "sloganAsABanner": {
-          "sloganMessage": "Transforme sua casa em uma super casa",
-          "sloganColorLetters": "white",
-          "sloganColorBackground": "blue"
+          "sloganText": "Transforme sua casa em uma super casa",
+          "sloganTextColor": "white",
+          "sloganBackgroundColor": "blue"
       },
       "menu": {
         "ecommerceMode": false,
