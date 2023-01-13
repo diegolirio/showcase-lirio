@@ -33,7 +33,7 @@
         </router-link>
       </v-toolbar-title>
 
-      <v-spacer></v-spacer>
+      
       <v-menu left bottom>
         <template v-slot:activator="{ on, attrs }">
           <v-btn icon v-bind="attrs" v-on="on">
