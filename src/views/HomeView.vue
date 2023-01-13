@@ -4,6 +4,7 @@
     <app-bar />
 
     <v-main>
+
       <v-row v-if="$store.state.company.sloganImageUrl">
         <v-col cols="12">
           <v-card>
@@ -15,7 +16,27 @@
             <!-- gradient="to top right, rgba(100,115,201,.33), rgba(25,32,72,.7)" -->
           </v-card>
         </v-col>
-      </v-row>            
+      </v-row>        
+      <v-row v-if="$store.state.company.sloganAsABanner && $store.state.company.sloganAsABanner.sloganText && !$store.state.company.sloganImageUrl">
+        <v-col cols="12">
+          <!-- <v-card color="$store.state.company.sloganAsABanner.sloganBackgroundColor">
+              <h2 class="font-weight-black text-center">{{ $store.state.company.sloganAsABanner.sloganText }}</h2>
+          </v-card> -->
+          <v-banner
+            height="120"
+            color="primary"
+            
+          >          
+              <h2 
+                class="text-center pa-4 mx-auto" 
+                :class="'text--'+$store.state.company.sloganAsABanner.sloganTextColor"
+              >
+                {{ $store.state.company.sloganAsABanner.sloganText }}
+              </h2>
+          </v-banner>
+        </v-col>
+      </v-row>          
+
       <v-container>
         <v-row>
           <v-col
