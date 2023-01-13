@@ -10,7 +10,7 @@
       <v-toolbar-title>
         <router-link to="/" style="color: inherit; text-decoration: none">
               <img 
-                src="https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/oshine/images/logo-lacasadelustre-Page-1-transparente.png" 
+                :src="$store.state.company.logoUrl" 
                 height="60"
                 style="padding-top: 7px"
               />

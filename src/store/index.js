@@ -12,7 +12,10 @@ export default createStore({
   mutations: {
     products(state, list) {
       state.customerInvest = list;
-    }      
+    },
+    company(state, list) {
+      state.company = list;
+    }            
   },
   actions: {
   },

@@ -30,12 +30,17 @@ export default {
     }
     companyGateway.getCompanyByDomain(domain, res => {
         if(res.length == 1) {
-          // TODO with ====> Vuex this.company = res
+          this.$store.state.company = res[0]
           this.loadingSite = false
-        } else {
-          alert('Seu dominio nao esta cadastrado acione o ADMIN do Site!')
+          return
+        } 
+        else if(res.length > 1) {
+          alert(`Existem dois cadastro com o dominio ${domain}`)
           console.warn('Domain', domain)    
+          return
         }
+        alert('Seu dominio nao esta cadastrado acione o ADMIN do Site!')
+        console.warn('Domain', domain)    
     }, err => {
         console.error(err)
         alert('Erro ao carregar informacoes do Servidor, Recarregue a Pagina ou tente novamente mais tarde')

@@ -83,7 +83,7 @@
       </v-btn> -->
       <button-buy-whats-app 
             class="align-end flex-column"
-            phoneNumber="11961409798" 
+            :phoneNumber="$store.state.company.phoneNumberWhatsApp" 
             :message="messageWhatsAPP()" 
         />       
     </v-card-actions>
