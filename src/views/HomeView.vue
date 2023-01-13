@@ -4,7 +4,18 @@
     <app-bar />
 
     <v-main>
-      <br/>
+      <v-row>
+        <v-col cols="12">
+          <v-card>
+            <v-img
+              src="https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/oshine/Screenshot%20from%202023-01-13%2003-12-06.png"
+              max-width="5000"
+              class="grey darken-4"
+            ></v-img>
+            <!-- gradient="to top right, rgba(100,115,201,.33), rgba(25,32,72,.7)" -->
+          </v-card>
+        </v-col>
+      </v-row>            
       <v-container>
         <v-row>
           <v-col
