@@ -9,13 +9,8 @@
       "sloganTextColor": "blue",
       "sloganBackgroundColor": "blue"
      },
-     "menu": {
-      "ecommerceMode": false,
-      "subSite": {
-       "menuDescription": "",
-       "hyperLink": ""
-      }
-     },
+     "ecommerceMode": false,
+     "menu": [],
      "contact": {
       "telefones": [
        "1146758597",
@@ -47,13 +42,11 @@
       "sloganTextColor": "blue",
       "sloganBackgroundColor": "green"
      },
-     "menu": {
-      "ecommerceMode": false,
-      "subSite": {
-       "menuDescription": "",
-       "hyperLink": ""
-      }
-     },
+     "menu": [{
+        "menuDescription": "Loja",
+        "hyperLink": "https://www.loja.cafglass.com.br/",
+        "active": true
+     }],
      "contact": {
       "telefones": [
        "1146758597",

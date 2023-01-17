@@ -40,7 +40,18 @@
         align-tabs="center"
       >
         <v-tab >Contato</v-tab>
-        <v-tab >Loja</v-tab>
+        <v-tab 
+          v-for="menuItem in menu" 
+          :key="menuItem.menuDisplay"
+        >
+          <a 
+            :href="menuItem.hyperLink" 
+            target="_blank"
+            style="color: inherit; text-decoration: none"
+          >
+          {{ menuItem.menuDisplay }}
+          </a>
+        </v-tab>
       </v-tabs>      
       <template v-slot:extension v-if="isMobile">
           <v-tabs
@@ -48,8 +59,13 @@
             color="blue-accent-4"
             align-tabs="center"
           >
-            <v-tab >Contato</v-tab>
-            <v-tab >Loja</v-tab>
+            <v-tab >{{ menu }}</v-tab>
+            <v-tab 
+              v-for="menuItem in menu" 
+              :key="menuItem.menuDisplay"
+            >
+              {{ menuItem.menuDisplay }}
+            </v-tab>
           </v-tabs>
       </template>
 
@@ -74,7 +90,10 @@
     computed: {
       isMobile() {
         return this.$vuetify.display.width < 400
-      },      
+      },    
+      menu() {
+        return this.$store.state.company.menu.filter(it => it.active)
+      }  
     }
   }
 </script>
