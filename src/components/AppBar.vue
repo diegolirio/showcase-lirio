@@ -21,7 +21,7 @@
 
     <v-app-bar color="">
       
-      <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon>
+      <!-- <v-app-bar-nav-icon @click="drawer = !drawer"></v-app-bar-nav-icon> -->
       
       <v-toolbar-title>
         <router-link to="/" style="color: inherit; text-decoration: none">
@@ -33,7 +33,26 @@
         </router-link>
       </v-toolbar-title>
 
-      
+      <v-tabs
+        v-if="!isMobile"
+        v-model="tab"
+        color="blue-accent-4"
+        align-tabs="center"
+      >
+        <v-tab >Contato</v-tab>
+        <v-tab >Loja</v-tab>
+      </v-tabs>      
+      <template v-slot:extension v-if="isMobile">
+          <v-tabs
+            v-model="tab"
+            color="blue-accent-4"
+            align-tabs="center"
+          >
+            <v-tab >Contato</v-tab>
+            <v-tab >Loja</v-tab>
+          </v-tabs>
+      </template>
+
       <v-menu left bottom>
         <template v-slot:activator="{ on, attrs }">
           <v-btn icon v-bind="attrs" v-on="on">
@@ -42,19 +61,20 @@
         </template>
       </v-menu>
 
-      <!-- <template v-slot:extension>
-        <v-tabs align-with-title>
-          <v-tab>Tab 1</v-tab>
-          <v-tab>Tab 2</v-tab>
-          <v-tab>Tab 3</v-tab>
-        </v-tabs>
-      </template> -->
     </v-app-bar>
 
 </template>
 
 <script>
   export default {
-    data: () => ({ drawer: false }),
+    data: () => ({ 
+      drawer: false, 
+      tab: null, 
+    }),
+    computed: {
+      isMobile() {
+        return this.$vuetify.display.width < 400
+      },      
+    }
   }
 </script>

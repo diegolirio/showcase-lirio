@@ -1,78 +1,84 @@
 [
     {
-      "id": "1",
-      "domain": "lacasadelustre.com.br",
-      "logoUrl": "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/logo/logo-lacasadelustre-Page-1-transparente.png",
-      "sloganImageUrl": "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/oshine/Screenshot%20from%202023-01-13%2003-12-06.png",
-      "sloganAsABanner": {
-          "sloganText": "Transforme sua casa em uma super casa",
-          "sloganTextColor": "white",
-          "sloganBackgroundColor": "blue"
-      },
-      "menu": {
-        "ecommerceMode": false,
-        "subSite": {
-            "menuDescription": "",
-            "hyperLink": ""
-        }
-      }, 
-      "contact": {
-            "telefones": ["1146758597", "11973625451"],
-            "phoneNumberWhatsApp": "11973625451",  
-            "showWhatsAppOnSite": true,
-            "facebook": "lacasadelustre",
-            "instagram": "lacasadelustre",
-            "tiktok": "",
-            "address": {
-                "street": "Rua das Hortencias",
-                "number": "389",
-                "district": "Vila Santa Margarida",
-                "city": "Ferraz de Vasconcelos",
-                "state": "SP",
-                "lat": "",
-                "lng": ""
-            }
-        }
+     "id": "1",
+     "domain": "lacasadelustre.com.br",
+     "logoUrl": "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/logo/logo-lacasadelustre-Page-1-transparente.png",
+     "sloganImageUrl": null,
+     "sloganAsABanner": {
+      "sloganText": "Transforme sua casa em uma \"Super Casa\"",
+      "sloganTextColor": "blue",
+      "sloganBackgroundColor": "blue"
+     },
+     "menu": {
+      "ecommerceMode": false,
+      "subSite": {
+       "menuDescription": "",
+       "hyperLink": ""
+      }
+     },
+     "contact": {
+      "telefones": [
+       "1146758597",
+       "11973625451"
+      ],
+      "phoneNumberWhatsApp": "11973625451",
+      "showWhatsAppOnSite": true,
+      "facebook": "lacasadelustre",
+      "instagram": "lacasadelustre",
+      "tiktok": "",
+      "address": {
+       "street": "Rua das Hortencias",
+       "number": "389",
+       "district": "Vila Santa Margarida",
+       "city": "Ferraz de Vasconcelos",
+       "state": "SP",
+       "lat": "",
+       "lng": ""
+      }
+     }
     },
     {
-        "id": "2",
-        "domain": "cafglass.lacasadelustre.com.br",
-        "logoUrl": "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/logo/cafglass-removebg-preview.png",
-        "sloganImageUrl": null,
-        "sloganAsABanner": {
-            "sloganText": "Encontre aqui os melhores produtos de Casa, Moveis e Decoracao",
-            "sloganTextColor": "blue",
-            "sloganBackgroundColor": "green"
-        },
-        "menu": {
-          "ecommerceMode": false,
-          "subSite": {
-              "menuDescription": "",
-              "hyperLink": ""
-          }
-        }, 
-        "contact": {
-              "telefones": ["1146758597", "11973625451"],
-              "phoneNumberWhatsApp": "11973625451",  
-              "showWhatsAppOnSite": true,
-              "facebook": "lacasadelustre",
-              "instagram": "lacasadelustre",
-              "tiktok": "",
-              "address": {
-                  "street": "Rua das Hortencias",
-                  "number": "389",
-                  "district": "Vila Santa Margarida",
-                  "city": "Ferraz de Vasconcelos",
-                  "state": "SP",
-                  "lat": "",
-                  "lng": ""
-              }
-          }        
+     "id": "2",
+     "domain": "cafglass.lacasadelustre.com.br",
+     "logoUrl": "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/logo/cafglass-removebg-preview.png",
+     "sloganImageUrl": null,
+     "sloganAsABanner": {
+      "sloganText": "Encontre aqui os melhores produtos de Casa, Móveis e Decoração",
+      "sloganTextColor": "blue",
+      "sloganBackgroundColor": "green"
+     },
+     "menu": {
+      "ecommerceMode": false,
+      "subSite": {
+       "menuDescription": "",
+       "hyperLink": ""
+      }
+     },
+     "contact": {
+      "telefones": [
+       "1146758597",
+       "11973625451"
+      ],
+      "phoneNumberWhatsApp": "11973625451",
+      "showWhatsAppOnSite": true,
+      "facebook": "lacasadelustre",
+      "instagram": "lacasadelustre",
+      "tiktok": "",
+      "address": {
+       "street": "Rua das Hortencias",
+       "number": "389",
+       "district": "Vila Santa Margarida",
+       "city": "Ferraz de Vasconcelos",
+       "state": "SP",
+       "lat": "",
+       "lng": ""
+      }
+     }
     },
     {
-        "id": "3",
-        "domain": "familycars.com.br",
-        "logoUrl": "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/oshine/images/logo-lacasadelustre-Page-1-transparente.png",
-        "phoneNumberWhatsApp": "11961409798"
-    }        
-]
+     "id": "3",
+     "domain": "familycars.com.br",
+     "logoUrl": "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/oshine/images/logo-lacasadelustre-Page-1-transparente.png",
+     "phoneNumberWhatsApp": "11961409798"
+    }
+   ]
