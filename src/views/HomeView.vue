@@ -55,13 +55,13 @@
 </template>
 
 <script>
-  import AppBar from '../components/AppBar' 
+  import AppBar from '../components/appbar/AppBar' 
   import CardItemStoreShowcase from '../components/CardItemStoreShowcase'
   import productGateway from '../gateway/product-gateway.js'
   export default {
     components: {
       AppBar,
-      CardItemStoreShowcase
+      CardItemStoreShowcase 
     },
     data: () => ({ 
       products: [] 
