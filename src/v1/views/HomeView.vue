@@ -3,7 +3,6 @@
   
     <app-bar />
     
-
     <v-main>
 
       <v-row v-if="$store.state.company.sloganImageUrl">
@@ -57,7 +56,7 @@
 <script>
   import AppBar from '../components/appbar/AppBar' 
   import CardItemStoreShowcase from '../components/CardItemStoreShowcase'
-  import productGateway from '../gateway/product-gateway.js'
+  import productGateway from '../../gateway/product-gateway.js'
   export default {
     components: {
       AppBar,

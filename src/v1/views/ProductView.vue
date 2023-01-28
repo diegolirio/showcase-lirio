@@ -69,7 +69,7 @@
 <script>
   import AppBar from '../components/appbar/AppBar' 
   import ButtonBuyWhatsApp from '../components/ButtonBuyWhatsApp'
-  import productGateway from '../gateway/product-gateway.js'
+  import productGateway from '../../gateway/product-gateway.js'
   
   import 'vue3-carousel/dist/carousel.css'
   import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'  

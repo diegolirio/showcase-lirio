@@ -10,6 +10,7 @@
       "sloganBackgroundColor": "blue"
      },
      "ecommerceMode": false,
+     "webSiteVersion": "v1",
      "menu": [],
      "contact": {
       "telefones": [
@@ -43,7 +44,7 @@
       "sloganBackgroundColor": "green"
      },
      "menu": [{
-        "menuDescription": "Loja",
+        "menuDisplay": "Loja",
         "hyperLink": "https://www.loja.cafglass.com.br/",
         "active": true
      }],
