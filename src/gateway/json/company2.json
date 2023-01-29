@@ -1,0 +1,83 @@
+[
+    {
+          "id": "1",
+          "name": "Laca de Luste",
+          "domain": "lacasadelustre.com.br",
+          "cnpj": "",
+          "site": {
+                "version": "v1",
+                "logoUrl": "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/logo/logo-lacasadelustre-Page-1-transparente.png",
+                "sloganImageUrl": null,
+                "sloganAsABanner": {
+                   "sloganText": "Transforme sua casa em uma \"Super Casa\"",
+                   "sloganTextColor": "blue",
+                   "sloganBackgroundColor": "blue"
+                },
+                "ecommerceMode": false,              
+                "menu": []
+          },
+          "contact": {
+                "contactUs": {
+                   "phoneNumber": "1146758597",
+                   "whatsApp": "11973625451"
+                },
+                "socialMedia": {
+                   "facebook": "lacasadelustre",
+                   "instagram": "lacasadelustre",
+                   "tiktok": ""
+                },
+                "address": {
+                   "street": "Rua das Hortencias",
+                   "number": "389",
+                   "district": "Vila Santa Margarida",
+                   "city": "Ferraz de Vasconcelos",
+                   "state": "SP",
+                   "lat": "",
+                   "lng": ""
+                }
+          }
+    },
+    {
+       "id": "2",
+       "name": "Cafglass",
+       "domain": "cafglass.lacasadelustre.com.br",
+       "cnpj": "",
+       "site": {
+             "version": "v1",
+             "logoUrl": "https://raw.githubusercontent.com/LaCasaDeLustre/LaCasaDeLustre.github.io/master/logo/cafglass-removebg-preview.png",
+             "sloganImageUrl": null,
+             "sloganAsABanner": {
+                "sloganText": "Encontre aqui os melhores produtos de Casa, Móveis e Decoração",
+                "sloganTextColor": "blue",
+                "sloganBackgroundColor": "green"
+             },
+             "ecommerceMode": false,              
+             "menu": [{
+                "menuDisplay": "Loja",
+                "hyperLink": "https://www.loja.cafglass.com.br/",
+                "active": true
+             }]
+       },
+       "contact": {
+             "contactUs": {
+                "phoneNumber": "11973625451",
+                "whatsApp": "11973625451"
+             },
+             "socialMedia": {
+                "facebook": "lacasadelustre",
+                "instagram": "lacasadelustre",
+                "tiktok": ""
+             },
+             "address": {
+                "street": "Rua das Hortencias",
+                "number": "389",
+                "district": "Vila Santa Margarida",
+                "city": "Ferraz de Vasconcelos",
+                "state": "SP",
+                "lat": "",
+                "lng": ""
+             }
+       
+       }
+    }
+]

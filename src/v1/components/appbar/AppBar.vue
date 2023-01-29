@@ -9,7 +9,7 @@
       <v-toolbar-title>
         <router-link to="/" style="color: inherit; text-decoration: none">
               <img 
-                :src="$store.state.company.logoUrl" 
+                :src="$store.state.company.site.logoUrl" 
                 height="60"
                 style="padding-top: 7px"
               />
@@ -17,12 +17,12 @@
       </v-toolbar-title>
 
       <dynamic-tabs 
-        :menuList="$store.state.company.menu" 
+        :menuList="$store.state.company.site.menu" 
         v-if="!isMobile" 
       />      
       <template v-slot:extension v-if="isMobile" >
           <dynamic-tabs 
-            :menuList="$store.state.company.menu" 
+            :menuList="$store.state.company.site.menu" 
           />      
       </template>
 

@@ -7,7 +7,7 @@ export default {
     getCompanyByDomain(domain, cb, errorCb) {
         let url = `${URL}?domain=${domain}`;
         axios.get(url)
-            .then(data => {
+            .then(data => { 
                 cb(data.data)
             })
             .catch(error => {
