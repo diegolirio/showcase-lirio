@@ -51,8 +51,8 @@
                   <p><b>{{ product.price }}</b></p>
                   <br/>
                   <button-buy-whats-app 
-                    v-if="$store.state.company.phoneNumberWhatsApp"
-                    :phoneNumber="$store.state.company.phoneNumberWhatsApp" 
+                    v-if="$store.state.company.contact.whatsApp"
+                    :phoneNumber="$store.state.company.contact.whatsApp" 
                     :message="messageWhatsAPP()" 
                   />
               </v-col>
@@ -69,7 +69,7 @@
 <script>
   import AppBar from '../components/appbar/AppBar' 
   import ButtonBuyWhatsApp from '../components/ButtonBuyWhatsApp'
-  import productGateway from '../gateway/product-gateway.js'
+  import productGateway from '../../gateway/product-gateway.js'
   
   import 'vue3-carousel/dist/carousel.css'
   import { Carousel, Slide, Pagination, Navigation } from 'vue3-carousel'  
