@@ -31,7 +31,7 @@
             style="color: inherit; text-decoration: none;" 
             target="_blank"
           >                  
-            (11) 96140-9798
+            {{ contactUs.phoneNumber }}
           </a>
         </v-col>
         <v-col 

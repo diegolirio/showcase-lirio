@@ -82,7 +82,7 @@
                "lng": ""
             },
              "showOntheWebSite": {
-                "contactMenu": true,
+                "contactMenu": false,
                 "phoneNumber": true,
                 "whatsApp": true,
                 "instagram": true,
