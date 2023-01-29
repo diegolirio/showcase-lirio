@@ -12,7 +12,9 @@
             Home
           </router-link>
         </v-tab>
-        <v-tab>
+        <v-tab
+            v-if="$store.state.company.contact.showOntheWebSite.contactMenu"
+        >
           <router-link 
             to="/contato"
             style="color: inherit; text-decoration: none"
@@ -33,7 +35,6 @@
           </a>
         </v-tab>
       </v-tabs>      
-      <contact-dialog :dialog="dialog" v-on:show-contact-dialog="showContactDialog" />
 </template>
 
 <script>
@@ -42,12 +43,9 @@
     props: ['menuList'],
     data: () => ({ 
       tab: null, 
-      dialog: true
     }),
     methods: {
-      showContactDialog(dlg) {
-          this.dialog = dlg
-      }
+
     },
     computed: {
       menu() {

@@ -27,13 +27,21 @@
                    "tiktok": ""
                 },
                 "address": {
-                   "street": "Rua das Hortencias",
-                   "number": "389",
-                   "district": "Vila Santa Margarida",
-                   "city": "Ferraz de Vasconcelos",
-                   "state": "SP",
+                   "description": "Rua das Hortencias, 389 - Vila Santa Margarida - Ferraz de Vasconcelos - SP",
                    "lat": "",
                    "lng": ""
+                },
+                "showOntheWebSite": {
+                    "contactMenu": true,
+                    "phoneNumber": true,
+                    "whatsApp": true,
+                    "instagram": true,
+                    "facebook": true,
+                    "tiktok": true,
+                    "address": true,
+                    "uber": true,
+                    "waze": true,
+                    "map": true
                 }
           }
     },
@@ -69,15 +77,22 @@
                 "tiktok": ""
              },
              "address": {
-                "street": "Rua das Hortencias",
-                "number": "389",
-                "district": "Vila Santa Margarida",
-                "city": "Ferraz de Vasconcelos",
-                "state": "SP",
-                "lat": "",
-                "lng": ""
-             }
-       
+               "description": "Rua das Hortencias, 389 - Vila Santa Margarida - Ferraz de Vasconcelos - SP",
+               "lat": "",
+               "lng": ""
+            },
+             "showOntheWebSite": {
+                "contactMenu": true,
+                "phoneNumber": true,
+                "whatsApp": true,
+                "instagram": true,
+                "facebook": true,
+                "tiktok": true,
+                "address": true,
+                "uber": true,
+                "waze": true,
+                "map": true
+            }             
        }
     }
 ]

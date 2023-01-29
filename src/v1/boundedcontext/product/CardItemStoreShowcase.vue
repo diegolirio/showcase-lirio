@@ -82,16 +82,16 @@
         Reserve
       </v-btn> -->
       <button-buy-whats-app 
-        v-if="$store.state.company.contact.whatsApp"
+        v-if="$store.state.company.contact.contactUs.whatsApp"
         class="align-end flex-column"
-        :phoneNumber="$store.state.company.contact.whatsApp" 
+        :phoneNumber="$store.state.company.contact.contactUs.whatsApp" 
         :message="messageWhatsAPP()" 
       />       
     </v-card-actions>
   </v-card>    
 </template>
 <script>
-  import ButtonBuyWhatsApp from '../components/ButtonBuyWhatsApp'
+  import ButtonBuyWhatsApp from '../../components/ButtonBuyWhatsApp'
   export default {
     name: "CardItemStoreShowcase",
     props: [ 'product' ],

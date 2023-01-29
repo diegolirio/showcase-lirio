@@ -52,7 +52,7 @@
 
 <script>
   import AppBar from '../components/appbar/AppBar' 
-  import CardItemStoreShowcase from '../components/CardItemStoreShowcase'
+  import CardItemStoreShowcase from '../boundedcontext/product/CardItemStoreShowcase'
   import productGateway from '../../gateway/product-gateway.js'
   export default {
     components: {
